@@ -1,0 +1,6 @@
+a.skiplinks {position:absolute; top:-500px; left:35px;  background:#fff; width:300px; height:auto; z-index:99999; border:2px solid #ccc; padding:10px; color:#000; font-size:15px}
+a.skiplinks:hover, a.skiplinks:focus {top:30px; }
+
+@media (max-width:990px){
+  a.skiplinks {display:none}
+}

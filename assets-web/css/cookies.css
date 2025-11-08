@@ -1,0 +1,55 @@
+#cajacookies { box-shadow: 0px 0px 5px 5px #808080; background-color: #353434; color: white; padding: 20px; padding-top:25px; padding-bottom:25px; margin-bottom: 0px; position: fixed; bottom: 0px; width: 100%; z-index:99999 } 
+#cajacookies a { color: white; text-decoration:underline; line-height: 0 !important;}
+
+#cajacookies button { background: #000; color: #fff; font-size: 15px; padding:5px 25px; }
+
+
+#cajacookies p { width: 100%;  line-height: 20px !important;  margin: 0px; color:#aaa;position:static; letter-spacing: 0px !important;  word-spacing: 0px !important;  font-size: 15px !important; }
+#cajacookies button img { width: 12px;  margin-right: 2px;  margin-top: -4px;}	
+
+#cajacookies .cookies_buttons{
+	display:flex;
+	justify-content: center;
+    gap: 50px;
+    margin-top:20px;
+}
+
+
+ @media (max-width: 700px){
+
+    #cajacookies .cookies_buttons{
+        margin-left:50px;
+      }
+      #cajacookies button {
+      	padding-left:5%;
+      	padding-right:5%;
+      }
+   
+  }
+  
+   @media (max-width: 500px){
+
+    #cajacookies .cookies_buttons{
+        margin-left:30px;
+        gap:25px;
+      }
+      #cajacookies button {
+      	padding-left:5%;
+      	padding-right:5%;
+      }
+  }
+  
+  @media (max-width: 290px){
+
+    #cajacookies .cookies_buttons{
+        margin-left:15px;
+        gap:5px;
+      }
+      #cajacookies button {
+      	padding-left:3%;
+      	padding-right:3%;
+      }
+  }
+  
+  
+  

@@ -1,0 +1,90 @@
+RewriteEngine on
+RewriteBase /
+
+##########################################################################################
+##################################### SIN WWW A WWW  #####################################
+##########################################################################################
+
+RewriteCond %{HTTP_HOST} ^web.com [NC]
+RewriteRule ^(.*)$ http://www.web.com/$1 [L,R=301]
+
+
+##########################################################################################
+########################################### CATALA #######################################
+##########################################################################################
+
+RewriteRule ^ca/$                                                                                           index.php$1 [L]
+
+RewriteRule ^ca/avis.html(.*)$             		                                                            aviso.php$1 [L]
+RewriteRule ^ca/cookies.html(.*)$           		                                                        cookies.php$1 [L]
+RewriteRule ^ca/privacitat.html(.*)$        		                                                        privacidad.php$1 [L]
+RewriteRule ^ca/sitemaps.html(.*)$        		                                                            sitemaps.php$1 [L]
+RewriteRule ^ca/accessibilitat.html(.*)$                                                                    accesibilidad.php$1 [L]
+
+RewriteRule ^ca/contacte.html(.*)$          		                                                        contacto.php$1 [L]
+
+RewriteRule ^ca/bat/MailHandler.php(.*)$                                                                    bat/MailHandler.php [L]
+RewriteRule ^ca/bat/MailHandlerPhone.php(.*)$                                                               bat/MailHandlerPhone.php [L]
+RewriteRule ^ca/bat/MailHandlerHome.php(.*)$                                                                bat/MailHandlerHome.php [L]
+
+
+##########################################################################################
+######################################## CASTELLANO  #####################################
+##########################################################################################
+
+RewriteRule ^es/$                                                                                           index.php$1 [L]
+
+RewriteRule ^es/aviso.html(.*)$             	                                                            avis.php$1 [L]
+RewriteRule ^es/cookies.html(.*)$           	                                                            cookies.php$1 [L]
+RewriteRule ^es/privacidad.html(.*)$        	                                                            privacitat.php$1 [L]
+RewriteRule ^es/sitemaps.html(.*)$        	                                                                sitemaps.php$1 [L]
+RewriteRule ^es/accesibilidad.html(.*)$        	                                                            accessibilitat.php$1 [L]
+
+RewriteRule ^es/contacto.html(.*)$        	                                                                contacte.php$1 [L]
+
+RewriteRule ^es/bat/MailHandler.php(.*)$                                                                    bat/MailHandler.php [L]
+RewriteRule ^es/bat/MailHandlerPhone.php(.*)$                                                               bat/MailHandlerPhone.php [L]
+RewriteRule ^es/bat/MailHandlerHome.php(.*)$                                                                bat/MailHandlerHome.php [L]
+
+##########################################################################################
+########################################### INGLES #######################################
+##########################################################################################
+
+RewriteRule ^en/$                                                                                           index.php$1 [L]
+
+RewriteRule ^en/notice.html(.*)$             		                                                        avis.php$1 [L]
+RewriteRule ^en/cookies.html(.*)$           		                                                        cookies.php$1 [L]
+RewriteRule ^en/privacy.html(.*)$        		                                                            privacitat.php$1 [L]
+RewriteRule ^en/sitemaps.html(.*)$        		                                                            sitemaps.php$1 [L]
+RewriteRule ^en/accessibility.html(.*)$                                                                     accessibilitat.php$1 [L]
+
+RewriteRule ^en/contact.html(.*)$        	                                                                contacte.php$1 [L]
+
+RewriteRule ^en/bat/MailHandler.php(.*)$                                                                    bat/MailHandler.php [L]
+RewriteRule ^en/bat/MailHandlerPhone.php(.*)$                                                               bat/MailHandlerPhone.php [L]
+RewriteRule ^en/bat/MailHandlerHome.php(.*)$                                                                bat/MailHandlerHome.php [L]
+
+
+##########################################################################################
+########################################## FRANCES #######################################
+##########################################################################################
+
+RewriteRule ^fr/$                                                                                           index.php$1 [L]
+
+RewriteRule ^fr/notavieice.html(.*)$             		                                                    aviso.php$1 [L]
+RewriteRule ^fr/biscuite.html(.*)$           		                                                        cookies.php$1 [L]
+RewriteRule ^fr/confidentialite.html(.*)$        		                                                    privacidad.php$1 [L]
+RewriteRule ^fr/plans-du-site.html(.*)$        		                                                        sitemaps.php$1 [L]
+RewriteRule ^fr/accessibilité.html(.*)$                                                                     accesibilidad.php$1 [L]
+RewriteRule ^fr/contact.html(.*)$        	                                                                contacto.php$1 [L]
+
+RewriteRule ^fr/bat/MailHandler.php(.*)$                                                                    bat/MailHandler.php [L]
+RewriteRule ^fr/bat/MailHandlerPhone.php(.*)$                                                               bat/MailHandlerPhone.php [L]
+RewriteRule ^fr/bat/MailHandlerHome.php(.*)$                                                                bat/MailHandlerHome.php [L]
+
+ 
+##########################################################################################
+##################################### DE HTML A PHP  #####################################
+##########################################################################################
+
+RewriteRule ^(.*)\.html$ $1.php [L]

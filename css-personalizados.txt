@@ -1,0 +1,81 @@
+/*input number quitar flechas*/
+
+input[type='number']::-webkit-inner-spin-button, 
+input[type='number']::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/*input number quitar flechas*/
+
+
+ /*Footer espacio para el Subvencionado */  
+ 
+.footer-logo-espacio{
+  margin-bottom: 30px;
+  width: 250px;
+  height: auto;
+}
+.footer-logo-espacio img{
+    max-width: 100%;
+  }
+  
+ /*Footer espacio para el Subvencionado*/
+
+
+/*contienecheckbox*/
+
+.contienecheckbox
+{
+	text-align:left;
+	margin-bottom:10px;
+}
+
+.labelcheck
+{
+	width:93%;
+	vertical-align:middle;
+	margin:0px;
+	display:inline-block;
+	font-size:15px;
+	line-height:14px;
+}
+
+/*contienecheckbox*/
+
+/*Loader*/
+
+.ajax-loader {width: 79px; display: none;}
+.ajax-result {margin-top:10px;}
+.ajax-result .success, .ajax-result .error{clear:both; padding: 10px;border: 1px solid green;font-size: 14px;background: #a9e4a9;color:#000;text-align:center; display:none; }
+.ajax-result .error{background: #f98e8e;}
+.ajax-result-phone {margin-top:10px;}
+.ajax-result-phone .success, .ajax-result-phone .error{clear:both; padding: 10px;border: 1px solid green;font-size: 14px;background: #a9e4a9;color:#000;text-align:center; display: none; }
+.ajax-result-phone .error{background: #f98e8e;}
+.ajax-result-home {margin-top:10px;}
+.ajax-result-home .success, .ajax-result-home .error{clear:both; padding: 10px;border: 1px solid green;font-size: 14px;background: #a9e4a9;color:#000;text-align:center; display:none; }
+.ajax-result-home .error{background: #f98e8e;}
+
+/*Loader*/
+
+/* -----------------------------------
+    Resaltar los titulos de los avisos
+-------------------------------------*/
+
+.resaltartitulos ul li{
+	list-style: disc;
+	margin: 15px;
+}
+
+.resaltartitulos ul {
+  height: auto;
+}
+
+.resaltartitulos h1, .resaltartitulos h2, .resaltartitulos h3, .resaltartitulos h4, .resaltartitulos h5, .resaltartitulos h6{
+  margin-top: 1.5rem;
+  margin-bottom:1.5rem ;
+}
+
+/* -----------------------------------
+    Resaltar los titulos de los avisos
+-------------------------------------*/

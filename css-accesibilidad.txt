@@ -1,0 +1,13 @@
+/*******************************************************************************************************************************
+************************************************** ACCESSIBILITY PARAMETERS **************************************************** 
+********************************************************************************************************************************/
+* { line-height: 1.5 !important;  letter-spacing: 0.12em !important;  word-spacing: 0.16em !important;}
+P { margin-bottom: 2em !important;}
+
+
+/********************************************************************************************************************************
+****************************************************** FOCUS PARAMETERS ********************************************************* 
+*********************************************************************************************************************************/
+input:focus, textarea:focus {outline: 2px solid white !important;}
+*:focus-visible, a:focus-visible img, a:focus-visible, a:focus-visible h2, a:focus-visible h3 { outline: 4px dashed darkorange !important;}
+a.AccessibilityLinkFirstLevelWithMenu + .AccessibilityDropDownMenu[aria-expanded="true"] { display: block !important; visibility: visible !important; opacity: 1 !important; }
