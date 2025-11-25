@@ -1,5 +1,5 @@
 <?php
-    include $_SERVER['DOCUMENT_ROOT'] . 'loadpage.php';
+    include $_SERVER['DOCUMENT_ROOT'] . '/loadpage.php';
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html lang="<?= $_Lang ?>" class="no-js oldie"><![endif]-->
